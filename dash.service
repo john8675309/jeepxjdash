@@ -1,0 +1,15 @@
+[Unit]
+Description=Run SDL Dashboard Script
+After=network.target
+
+[Service]
+User=orangepi
+Group=orangepi
+WorkingDirectory=/home/orangepi
+ExecStart=/usr/bin/python3 /home/orangepi/dash.py
+Restart=always
+Environment="SDL_VIDEODRIVER=kmsdrm"
+Environment="SDL_DEBUG=1"
+
+[Install]
+WantedBy=multi-user.target
