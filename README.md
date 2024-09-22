@@ -28,3 +28,7 @@ sudo reboot
 Dashboard should show on boot now.
 
 The board runs a little hot, and around 250% CPU all the time, so probably will do something where I don't redraw all the gauges unless there is a big change.
+
+Demo:
+
+https://youtu.be/Ajk41vTcy4A
